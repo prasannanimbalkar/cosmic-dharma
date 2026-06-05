@@ -127,11 +127,11 @@ export default function BirthForm({ onSubmit, hasChart = false }: Props) {
         </div>
 
         <div className="email-section">
-        <p className="privacy-note">
+        {/* <p className="privacy-note">
           We only save your <strong>email</strong> and <strong>name</strong> for follow-up. Your
           birth date, time, place, and chart are <strong>not stored</strong> on our servers—they
           stay in your browser.
-        </p>
+        </p> */}
         <label className="birth-form-email">
           Email
           <input
@@ -154,8 +154,7 @@ export default function BirthForm({ onSubmit, hasChart = false }: Props) {
                 onChange={(e) => setConsent(e.target.checked)}
               />
               <span>
-                I understand only my email and name are saved, not my birth details or kundali
-                data.
+                I understand only my <strong>email</strong> and <strong>name</strong> are saved for follow-up, a noting else.
               </span>
             </label>
           )}

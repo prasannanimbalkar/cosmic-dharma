@@ -47,8 +47,8 @@ function App() {
         <p className="eyebrow">Vedic Astrology</p>
         <h1>Cosmic Dharma</h1>
         <p className="tagline">
-          Read the sky you were born under—your Janma Kundali, planetary rhythms, and life&apos;s path in
-          plain words.
+          Read the sky you were born under <br /> your sacred star chart, planetary rhythms, and life&apos;s
+          path in plain words.
         </p>
       </header>
 
@@ -93,7 +93,7 @@ function App() {
       )}
 
       <footer>
-        <p>Sidereal zodiac · Whole sign houses · Lahiri Ayanamsa · For educational purposes</p>
+        <p>Sidereal zodiac · Whole sign houses · Lahiri Ayanamsa</p>
       </footer>
     </div>
   )

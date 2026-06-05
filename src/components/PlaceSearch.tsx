@@ -165,12 +165,6 @@ export default function PlaceSearch({ value, onChange, disabled }: Props) {
         </ul>
       )}
 
-      <p className="place-attribution">
-        Place search via{' '}
-        <a href="https://open-meteo.com/en/docs/geocoding-api" target="_blank" rel="noreferrer">
-          Open-Meteo
-        </a>
-      </p>
     </div>
   )
 }

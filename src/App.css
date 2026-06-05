@@ -202,7 +202,17 @@ body {
 
 @media (max-width: 860px) {
   .layout-entry {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .layout-entry .results {
+    order: 1;
+  }
+
+  .layout-entry .form-section {
+    order: 2;
   }
 }
 
